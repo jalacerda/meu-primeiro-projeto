@@ -1,14 +1,14 @@
 import { useState,} from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Navbar from './Navbar';
-import Perfil from './Perfil';
-import Sobre from './Sobre';
-import OQueEuFaco from './OQueEuFaco';
-import Projetos from './Projetos';
-import Contato from './Contato';
-import Rodape from './Rodape'; 
-import Dashboard from './Dashboard';
-import Login from './Login';
+import Navbar from './layout/Navbar';
+import Perfil from './pages/perfil/Perfil';
+import Sobre from './pages/sobre/Sobre';
+import OQueEuFaco from './pages/oqueeufaco/OQueEuFaco';
+import Projetos from './pages/projetos/Projetos';
+import Contato from './pages/contato/Contato';
+import Rodape from './layout/Rodape'; 
+import Dashboard from './pages/dashboard/Dashboard';
+import Login from './pages/login/Login';
 
 function Home() {
   return (
